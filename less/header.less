@@ -3,6 +3,7 @@ header {
 
     #heading {
         .auto-width(75%, 0 auto);
+        padding-top: 15px;
     }
 
     h1 {
@@ -18,7 +19,7 @@ header {
     }
 
     p {
-        color: #f9faf8
+        color: #e5e7eb;
     }
 
     a {
@@ -33,8 +34,20 @@ header {
         justify-content: space-between;
 
         .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
             width: 30%;
+            gap: 10px;
             
+            button {
+                border-style: none;
+                background-color: #3882f6;
+                color: #f9faf8;
+                border-radius: 12px;
+                padding: 10px;
+            }
             
         }
 

@@ -85,7 +85,6 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -106,6 +105,7 @@ section {
 }
 body {
   line-height: 1;
+  font-family: roboto, sans-serif;
 }
 ol,
 ul {
@@ -125,4 +125,132 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+header {
+  background-color: #1f2937;
+}
+header #heading {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+header h1 {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+header h2 {
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 48px;
+}
+header p {
+  color: #e5e7eb;
+}
+header a {
+  color: #f9faf8;
+  text-decoration: none;
+  font-size: 18px;
+}
+header .awesome {
+  display: flex;
+  margin: 50px 0;
+  justify-content: space-between;
+}
+header .awesome .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+  gap: 10px;
+}
+header .awesome .text button {
+  border-style: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 12px;
+  padding: 10px;
+}
+header .awesome img {
+  width: 800px;
+  height: 400px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav span {
+  display: flex;
+  gap: 24px;
+}
+#quote {
+  background-color: #e5e7eb;
+  font-style: italic;
+  color: #1f2937;
+  font-size: 36px;
+  display: flex;
+  justify-items: center;
+}
+#quote .content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-top: 80px;
+}
+#quote #author {
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  flex-wrap: wrap;
+}
+#action {
+  background-color: #3882f6;
+  width: 75%;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 12px;
+  color: #e5e7eb;
+}
+#action h3 {
+  font-weight: bold;
+}
+#action #sign-up {
+  display: flex;
+  align-items: baseline;
+  gap: 100px;
+}
+#action button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 2px solid #e5e7eb;
+  padding: 12px;
+  border-radius: 12px;
+}
+#information h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.content {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 80px;
+}
+.content .books {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.content .books img {
+  height: 200px;
+  width: auto;
 }
